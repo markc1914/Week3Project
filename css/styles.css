@@ -11852,4 +11852,21 @@ body {
   color: white;
 }
 
+.nav-item {
+  color: white;
+}
+
+.active {
+  color: #FF0000;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.card-body {
+  color: rgb(3, 3, 0);
+  font-size: large;
+}
+
 /*# sourceMappingURL=styles.css.map */
