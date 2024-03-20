@@ -11861,12 +11861,11 @@ body {
 }
 
 .dropdown-item {
-  color: white;
+  color: black;
 }
 
 .card-body {
   color: rgb(3, 3, 0);
-  font-size: large;
 }
 
 /*# sourceMappingURL=styles.css.map */
