@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Highlights</title>
+</head>
+
+<body class="bg-dark">
+    <!-- our main content area-->
+    <div id="main-container" class="container pt-0 pb-5 bg-light px-0">
+
+        <!-- navigation -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5 py-0">
+            <div class="container-fluid text-bg-secondary">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/cod_icon.jpg" alt="COD" height="40" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Maps
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./maps.html">Maps Main</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./shipment.html">Shipment</a></li>
+                                <li><a class="dropdown-item" href="./stash-house.html">Stash House</a></li>
+                                <li><a class="dropdown-item" href="./das-haus.html">Das Haus</a></li>
+                                <li><a class="dropdown-item" href="./shoot-house.html">Shoot House</a></li>
+                                <li><a class="dropdown-item" href="./rust.html">Rust</a></li>
+                                <li><a class="dropdown-item" href="./meat-map.html">Meat</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end navigation-->
+
+        <!-- our site header text goes here-->
+        <h1 class="text-center mb-5 mt-2">My Highlights</h1>
+
+        <div class="container text-center fs-4">
+            <span>Below are some clips of me playing the game.</span>
+        </div>
+
+        <div class="container text-center mb-5 fs-2">
+            <div class="row">
+                <!-- Shipment Card here -->
+                <div class="p-3 col-md">
+                    <div id="card-shipment" class="card bg-secondary">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://gameclipscontent-d3015.media.xboxlive.com/xuid-2585548714642280-private/7bc2bd77-88d0-43b0-8e2c-1e9462c7c652.MP4?sv=2017-11-09&sr=b&si=DefaultAccess&sig=XZ7xk4vuPKk0S5SIpJFMY6sMIQjwxj%2FAM8d3cDIdQI8%3D&__gda__=1710974904_7f49a4a115da4f13e28fae3d648860aa"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Game Winning Frag</h3>
+                            <p class="fs-6">The very last frag of the match, played on the map "Das Haus". Everyone on the map sees this highlight.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Stash House Card Here -->
+                <div class="p-3 col-md">
+                    <div id="card-stash-house" class="card bg-secondary">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://gameclipscontent-d3006.media.xboxlive.com/xuid-2585548714642280-private/e1f7f770-2478-47fc-8772-dd1683eb8eb9.MP4?sv=2017-11-09&sr=b&si=DefaultAccess&sig=86EVgtXapQ%2ByUQH5Dem52mtEeDxOqfpzYDMN6AKRkyw%3D&__gda__=1710974904_c6c51fb6ad7d349d351322d158023a3c"
+                                allowfullscreen></iframe>
+                        </div>
+
+                        <div class="card-body">
+                            <h3 class="card-title">Melee Kills</h3>
+                            <p class="fs-6">A streak of several frags using melee weapons. This means you get up close and personal.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Das Haus Card Here -->
+                <div class="p-3 col-md">
+                    <div id="card-das-haus" class="card bg-secondary">
+                        <img src="images/das-haus.jpg" class="card-img-top" alt="An image of the Das Haus Map"
+                            width="100" />
+                        <div class="card-body">
+                            <h3 class="card-title">Das Haus</h3>
+                            <a class="btn btn-outline-dark btn-md" href="./das-haus.html">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Shoot House Card here -->
+                <div class="p-3 col-md">
+                    <div id="card-shoot-house" class="card bg-secondary">
+                        <img src="images/shoot-house.jpg" class="card-img-top" alt="An image of the Shoot House Map"
+                            width="100" />
+                        <div class="card-body">
+                            <h3 class="card-title">Shoot House</h3>
+                            <a class="btn btn-outline-dark btn-md" href="./shoot-house.html">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Rust Card Here -->
+                <div class="p-3 col-md">
+                    <div id="card-rust" class="card bg-secondary">
+                        <img src="images/rust.jpg" class="card-img-top" alt="An image of the Rust Map" width="100" />
+                        <div class="card-body">
+                            <h3 class="card-title">Rust</h3>
+                            <a class="btn btn-outline-dark btn-md" href="./rust.html">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Meat Card Here -->
+                <div class="p-3 col-md">
+                    <div id="card-meat" class="card bg-secondary">
+                        <img src="images/meat-map.jpg" class="card-img-top" alt="An image of the Meat Map"
+                            width="100" />
+                        <div class="card-body">
+                            <h3 class="card-title">Meat</h3>
+                            <a class="btn btn-outline-dark btn-md" href="./meat-map.html">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
